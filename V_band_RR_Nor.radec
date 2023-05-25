@@ -1,0 +1,14 @@
+#RA in decimal or sexagesimal HOURS
+#Dec in decimal or sexagesimal DEGREES
+#Ref Star=0,1,missing (0=target star, 1=ref star, missing->first ap=target, others=ref)
+#Centroid=0,1,missing (0=do not centroid, 1=centroid, missing=centroid)
+#Apparent Magnitude or missing (value = apparent magnitude, or value > 99 or missing = no mag info)
+#Add one comma separated line per aperture in the following format:
+#RA, Dec, Ref Star, Centroid, Magnitude
+15:13:12.973, -55:22:05.75, 1, 1, 11.04
+15:13:00.642, -55:26:04.53, 1, 1, 11.83
+15:12:26.467, -55:13:18.12, 1, 1, 11.06
+15:12:56.209, -55:11:47.66, 1, 1, 11.08
+15:12:32.376, -55:15:26.92, 1, 1, 11.85
+15:11:47.675, -55:16:22.56, 1, 1, 11.31
+15:12:33.583, -55:18:48.18, 0, 1, 10.575034
